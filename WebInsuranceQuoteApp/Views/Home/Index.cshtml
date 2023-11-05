@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/Content/styles_HomeIndexLandingPage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="LandingPageHomeIndex">
+        @*<img src="~/Content/Images/LandingPageCut.png" aspect-ratio="auto" alt="Middle Of Road Picture" />*@
+        <div id="ColorOverlay">
+            <div id="TextOverlay">
+                <h1 id="AreYou">Are you paying too much for auto insurance?</h1>
+
+                <h5 id="Sadly">... The answer is probably "YES".</h5>
+
+                <p id="Favor">
+                    Let's take a moment and think about that ...shall we???<br /><br />
+                </p>
+                <p id="HowMuch">
+                    Stop Throwing Your $$ MONEY $$ Away !!! <br /><br />
+
+                    Do yourself a favor and keep that money in your pocket... <br />
+                    Auto Insurance Connection is here for YOU!!!<br /><br />
+                    
+                    So, Be Good to YOURSELF!!!<br /><br />
+
+
+                    Click The Button Below <br /> <br />
+                      to Get Your Free Auto Insurance Quote<br />
+
+                </p>
+                <div id="FreeQuoteButton">
+                    @Html.ActionLink("Get Your Free No-Risk Auto Insurance Quote!!!" , "Create", "Insurees");
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
